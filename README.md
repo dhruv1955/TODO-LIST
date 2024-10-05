@@ -12,7 +12,7 @@ This is a basic To-Do List application built using **HTML**, **CSS**, and **Java
 
 ## Demo
 
-You can check out the live version of this To-Do List app [here]((https://dhruv1955.github.io/TODO-LIST/)).
+You can check out the live version of this To-Do List app [here](https://dhruv1955.github.io/TODO-LIST/).
 
 ## Technologies Used
 
