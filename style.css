@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.containeer{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#4e085f,#153677);
+    padding: 10px;
+}
+.todo-list{
+    width: 100%;
+    max-width: 450px;
+    margin: 100px auto 20px;
+    background: #fff;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-list h2{
+    color: #002765;
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 20px;
+}
+.serch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+#todo-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 17px;
+}
+#btn{
+    border: none;
+    outline: none;
+    background: #ff5945;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 11px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+input[type="checkbox"] {
+    width: 17px;
+    cursor: pointer;
+    position: relative;
+    top:2px;
+}
+ul li span{
+    position: relative;
+    right: 0px;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+}
+ul li button{
+    
+    padding: 8px 20px;
+    border: 10px;
+    border-radius: 10px;
+    background: #ff5945;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+ul li button:hover{
+    background: #fc7566;
+}
+.addtaskss{
+    display: flex;
+    align-items: center;
+}
+#addtask {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+.hello input {
+    margin: 4px;
+}
+.hello label{
+    cursor: pointer;
+}
